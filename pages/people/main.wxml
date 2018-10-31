@@ -1,0 +1,5 @@
+<!--pages/people/main.wxml-->
+<view class='list'>
+  <view><button data-roomid="1" size='mini' type="primary" bindtap='openroom'>加入房间1</button></view>
+  <view><button data-roomid="2" size='mini' type="primary" bindtap='openroom'>加入房间2</button></view>
+</view>

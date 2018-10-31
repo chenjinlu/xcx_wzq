@@ -1,0 +1,8 @@
+.h-title{text-align: center;width: 100%;display: block;}
+.canvas-box{margin-left: 75rpx;}
+.table{width: 100%;}
+.th{width: 25%;text-align: center;display:inline-block;font-size: 32rpx;}
+.green{color:green;}
+.red{color:red;}
+.b-left{float: left;margin-left: 50rpx;}
+.b-right{float: right;margin-right: 50rpx;}

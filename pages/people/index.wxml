@@ -1,0 +1,47 @@
+<view class='info'>
+  <view class='ban self'>自己：
+    <block wx:for="{{people}}" wx:key="unique">
+      <block wx:if="{{item.id == client_id}}"><text class='name'>{{item.val}}</text></block>
+    </block>
+  </view>
+  <view class='ban other'>对手：
+    <block wx:for="{{people}}" wx:key="unique">
+      <block wx:if="{{item.id != client_id}}"><text class='name'>{{item.val}}</text></block>
+    </block>
+  </view>
+</view>
+
+
+<view class='top'>
+  <text class='h-title'>我是{{chess?chess:'未选择'}}</text>
+</view>
+<view class='canvas-box'>
+  <canvas style="width: 600rpx; height: 600rpx;" canvas-id="chess" bindtouchstart="addEvent"></canvas>
+</view>
+
+<view>当前房间人数<text style='color:red;'>{{people.length}}</text>人</view>
+<view class="people-list">
+  <view>当前房间人员：</view>
+  <block wx:for="{{people}}" wx:key="unique">
+    <view>id:{{item.id}},昵称：{{item.val}}</view>
+  </block>
+</view>
+<!-- <button bindtap='start'>加入房间</button> -->
+<view class="xz"><button bindtap='choice' size="mini" type="warn" disabled="{{setchess}}">选白子</button></view>
+<!-- <button bindtap='sendmsg'>模拟下子</button> -->
+<view>
+  <form bindsubmit="formSubmit">
+    <view class='input'><input name="content" placeholder="请输入聊天内容" /></view>
+    <view class='submit'><button formType="submit" size="mini" type="primary">提交</button></view>
+  </form>
+</view>
+<view class='chatnr'>
+  <view>聊天内容</view>
+  <block wx:for="{{chatCont}}">
+    <view>
+      <text class='nickname'>{{item.name}}</text>
+      <text>:{{item.content}}</text>
+      <text class='time'>{{item.time}}</text>
+    </view>
+  </block>
+</view>

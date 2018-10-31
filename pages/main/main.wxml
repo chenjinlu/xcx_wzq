@@ -1,0 +1,33 @@
+<view>
+   <!-- <text class='h-title'>这是五子棋首页</text>  -->
+</view>
+<view class="h-title">
+  当前步数：<text class="red">{{ step }}</text>
+</view>
+<view class='canvas-box'>
+  <canvas style="width: 600rpx; height: 600rpx;" canvas-id="chess" bindtouchstart="addEvent"></canvas>
+</view>
+<view>
+  <button class="b-left" type="primary" bindtap="new_game" size="mini">新的游戏</button>
+  <button class="b-right" type="warn" bindtap="clear_game" size="mini">清空数据</button>
+</view>
+<view style="padding:0 200rpx;text-align:center;">
+  <button bindtap="showOrHidden" size="mini">历史记录</button>
+</view>
+<view wx:if="{{show}}">
+  <view class="table">
+    <text class="th">序号</text>
+    <text class="th">状态</text>
+    <text class="th">步数</text>
+    <text class="th">用时</text>
+  </view>
+  <view wx:for="{{hdata}}">
+    <text class="th">{{index + 1}}</text>
+    
+    <block wx:if="{{item.zt}}"> <text class="th green">玩家赢</text> </block>
+    <block wx:else> <text class="th red">电脑赢</text> </block>
+    
+    <text class="th">{{item.bs}}</text>
+    <text class="th">{{item.ys}}</text>
+  </view>
+</view>

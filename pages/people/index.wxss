@@ -1,0 +1,16 @@
+/* pages/people/index.wxss */
+.h-title{text-align: center;width: 100%;display: block;}
+.canvas-box{margin-left: 75rpx;}
+.ban{width: 50%;float: left;font-size:28rpx;}
+.top{margin-top: 30rpx;}
+.self .name{color:green;}
+.other .name{color:red;}
+.info{height: 50rpx;}
+.people-list view{font-size: 28rpx;}
+.xz{text-align: center;margin-top: 50rpx;}
+.input{width: 70%;float: left;}
+.input input{border:1rpx solid green;}
+.submit{width: 30%;float: left;}
+.chatnr view{font-size: 28rpx;}
+.chatnr .nickname{color:green;}
+.time{padding-left: 20rpx;color:#666;}

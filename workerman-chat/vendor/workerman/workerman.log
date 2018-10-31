@@ -1,0 +1,196 @@
+2018-09-14 09:30:59 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:127.0.0.1 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:91
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"say","...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"say","...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-14 09:30:59 pid:1 Worker process terminated
+2018-09-14 09:32:14 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:127.0.0.1 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:91
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"say","...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"say","...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-14 09:32:14 pid:1 Worker process terminated
+2018-09-14 09:57:50 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:127.0.0.1 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:91
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"say","...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"say","...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-14 09:57:50 pid:1 Worker process terminated
+2018-09-14 09:57:51 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:127.0.0.1 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:91
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"say","...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"say","...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-14 09:57:51 pid:1 Worker process terminated
+2018-09-25 14:58:19 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:127.0.0.1 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:91
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"say","...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"say","...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-25 14:58:19 pid:1 Worker process terminated
+2018-09-25 15:06:21 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:127.0.0.1 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:91
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"say","...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"say","...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-25 15:06:21 pid:1 Worker process terminated
+2018-09-25 16:08:11 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:127.0.0.1 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:125
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"chess"...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"chess"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-25 16:08:11 pid:1 Worker process terminated
+2018-09-25 16:08:12 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:127.0.0.1 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:125
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"chess"...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"chess"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-25 16:08:12 pid:1 Worker process terminated
+2018-09-25 16:08:12 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:127.0.0.1 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:125
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"chess"...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"chess"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-25 16:08:12 pid:1 Worker process terminated
+2018-09-25 16:08:14 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2018-09-25 16:08:14 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2018-09-25 17:10:53 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:192.168.1.205 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:163
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{ "type": "setc...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{ "type": "setc...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-25 17:10:53 pid:1 Worker process terminated
+2018-09-25 17:13:47 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:192.168.1.205 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:125
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"chess"...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"chess"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-25 17:13:47 pid:1 Worker process terminated
+2018-09-25 17:13:47 pid:1 Exception: $_SESSION['room_id'] not set. client_ip:192.168.1.205 in D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\Events.php:125
+Stack trace:
+#0 [internal function]: Events::onMessage('7f00000108fc000...', '{"type":"chess"...')
+#1 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(403): call_user_func('Events::onMessa...', '7f00000108fc000...', '{"type":"chess"...')
+#2 [internal function]: GatewayWorker\BusinessWorker->onGatewayMessage(Object(Workerman\Connection\AsyncTcpConnection), Array)
+#3 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Connection\TcpConnection.php(650): call_user_func(Array, Object(Workerman\Connection\AsyncTcpConnection), Array)
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #26)
+#5 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Events\Select.php(289): call_user_func_array(Array, Array)
+#6 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(2235): Workerman\Events\Select->loop()
+#7 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\gateway-worker\src\BusinessWorker.php(197): Workerman\Worker->run()
+#8 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1225): GatewayWorker\BusinessWorker->run()
+#9 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(1168): Workerman\Worker::forkWorkersForWindows()
+#10 D:\phpStudy\PHPTutorial\WWW\workerman-chat\vendor\workerman\workerman\Worker.php(478): Workerman\Worker::forkWorkers()
+#11 D:\phpStudy\PHPTutorial\WWW\workerman-chat\Applications\Chat\start_businessworker.php(32): Workerman\Worker::runAll()
+#12 {main}
+2018-09-25 17:13:47 pid:1 Worker process terminated
+2018-09-25 17:13:48 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
+2018-09-25 17:13:48 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://wiki.workerman.net/Error3
